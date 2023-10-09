@@ -241,7 +241,7 @@ $(document).ready(function () {
       p2: 'Developed With HTML, CSS and JavaScript.',
     },
     {
-      img: './assest/img/bibleSchool.png',
+      img: './assest/img/BibleSchool.png',
       a: 'https://chisconike.github.io/HCBC-School/',
       h3: 'His Coming Bible College',
       p2: 'Developed With HTML, CSS and JavaScript.',

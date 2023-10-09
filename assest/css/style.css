@@ -663,6 +663,7 @@ footer .my_social_accounts ul {
 
 footer .my_social_accounts ul li {
   display: inline-flex;
+  color: var(--black);
 }
 
 footer .my_social_accounts ul li a button {
@@ -672,6 +673,11 @@ footer .my_social_accounts ul li a button {
   font-size: 25px;
   margin: 0px 20px;
   transition: 0.3s;
+  color: var(--black);
+}
+
+footer .my_social_accounts .social ul a {
+  color: var(--black);
 }
 
 footer p {

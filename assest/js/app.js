@@ -193,7 +193,7 @@ $(document).ready(function () {
   security.forEach(item => {
     services.append(`
       <div>
-        <div class="my_service_box">
+        <div class="my_service_box animate">
           <button class="my_services_btn"><i class="${item.i}"></i></button>
           <h3>${item.h2}</h3>
           <p class="reduce">${item.p}</p>
@@ -293,7 +293,7 @@ $(document).ready(function () {
   details.forEach(item => {
     codes.append(`
    
-  <div class="my_works_box">
+  <div class="my_works_box animate">
   <h3>${item.h3}</h3>
   <img src="${item.img}" alt="my works">
   <div class="view_my_code">
@@ -352,5 +352,21 @@ $(document).ready(function () {
     `)
   })
 
+
+
+
+  // for animation 
+  const check = new IntersectionObserver((items) => {
+    items.forEach((item) => {
+      if (item.isIntersecting) {
+        item.target.classList.add('display');
+      } else {
+        item.target.classList.remove('display');
+      }
+    })
+  })
+
+  const animate = document.querySelectorAll('.animate');
+  animate.forEach((el) => check.observe(el));
 
 });

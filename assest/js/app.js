@@ -104,8 +104,16 @@ $(document).ready(function () {
       b: 'JavaScript',
     },
     {
+      img: './assest/img/python.png',
+      b: 'Python',
+    },
+    {
       img: './assest/img/jquery.png',
       b: 'jQuery',
+    },
+    {
+      img: './assest/img/bootstrap.png',
+      b: 'Bootstrap',
     },
     {
       img: './assest/img/figma.png',
@@ -118,11 +126,7 @@ $(document).ready(function () {
     {
       img: './assest/img/github.png',
       b: 'GitHub',
-    },
-    {
-      img: './assest/img/bootstrap.png',
-      b: 'Bootstrap',
-    },
+    }
   ];
 
   each_skills.forEach(item => {

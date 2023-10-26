@@ -104,6 +104,10 @@ $(document).ready(function () {
       b: 'JavaScript',
     },
     {
+      img: './assest/img/angular.png',
+      b: 'Angular',
+    },
+    {
       img: './assest/img/python.png',
       b: 'Python',
     },

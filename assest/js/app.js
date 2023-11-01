@@ -220,7 +220,7 @@ $(document).ready(function () {
   let details = [
     {
       img: './assest/img/openlabs.png',
-      a: 'https://polite-piroshki-e28c4a.netlify.app/',
+      a: 'https://openlabs-clone.netlify.app/',
       h3: 'OpenLabs Clone',
       p2: 'Developed With Bootstrap and Angular.',
       p3: 'Hosted at Netlify',

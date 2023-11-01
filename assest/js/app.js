@@ -219,82 +219,102 @@ $(document).ready(function () {
 
   let details = [
     {
+      img: './assest/img/openlabs.png',
+      a: 'https://polite-piroshki-e28c4a.netlify.app/',
+      h3: 'OpenLabs Clone',
+      p2: 'Developed With Bootstrap and Angular.',
+      p3: 'Hosted at Netlify',
+    },
+    {
       img: './assest/img/DezignSntr.png',
       a: 'https://chisconike.github.io/DezignSntr/',
       h3: 'DezignSntr',
       p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/blog.png',
       a: 'https://chisconike.github.io/Blog-site/',
       h3: 'Simple Blog',
       p2: 'Developed With HTML, CSS, JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/facebook.png',
       a: 'https://chisconike.github.io/Facebook/',
       h3: 'Facebook Clone',
       p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/instagram.png"',
       a: 'https://chisconike.github.io/Instagram/',
       h3: 'Instagram Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/youtube.png',
       a: 'https://chisconike.github.io/YouTube/',
       h3: 'YouTube Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/BibleSchool.png',
       a: 'https://chisconike.github.io/HCBC-School/',
       h3: 'His Coming Bible College',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/payjax.png',
       a: 'https://chisconike.github.io/PAJAX/',
       h3: 'Payjax',
       p2: 'Developed With HTML and CSS.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/port.png',
       a: 'https://chisconike.github.io/Project-with-Mr-Emma/',
       h3: 'Portfolio',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/bar-lounge.png',
       a: 'https://chisconike.github.io/Bar-Lounge/',
       h3: 'Bar-Lounge',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/nedu.png',
       a: 'https://chisconike.github.io/NeduMotors/',
       h3: 'NeduMotors',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/top.png',
       a: 'https://chisconike.github.io/TopQualities/',
       h3: 'Top Qualities Boutique',
       p2: 'Developed With HTML, CSS and JavaScript.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/ecomerce.png',
       a: 'https://chisconike.github.io/E-Commerce/',
       h3: 'E-Commerce',
       p2: 'Developed With HTML and CSS.',
+      p3: 'Hosted on GitHub',
     },
     {
       img: './assest/img/food.png',
       a: 'https://chisconike.github.io/Food/',
       h3: 'Food.',
       p2: 'Developed With HTML and CSS.',
+      p3: 'Hosted on GitHub',
     },
   ]
 
@@ -306,6 +326,7 @@ $(document).ready(function () {
   <img src="${item.img}" alt="my works">
   <div class="view_my_code">
     <p>${item.p2}</p>
+    <p class="hosted">${item.p3}</p>
     <a href="${item.a}" target="_blank"><button>View Project</button></a>
   </div>
   </div>

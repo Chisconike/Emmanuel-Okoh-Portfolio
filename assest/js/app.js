@@ -226,6 +226,13 @@ $(document).ready(function () {
       p3: 'Hosted at Netlify',
     },
     {
+      img: './assest/img/Eco_Boutique.png',
+      a: 'https://eco-boutique.netlify.app/',
+      h3: 'Ecommerce Website',
+      p2: 'Developed With Bootstrap and Jquery.',
+      p3: 'Hosted at Netlify',
+    },
+    {
       img: './assest/img/DezignSntr.png',
       a: 'https://chisconike.github.io/DezignSntr/',
       h3: 'DezignSntr',

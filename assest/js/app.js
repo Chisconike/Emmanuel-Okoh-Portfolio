@@ -362,7 +362,7 @@ $(document).ready(function () {
       btn: 'github',
     },
     {
-      a: 'https://www.linkedin.com/in/emmanuelokohc/',
+      a: 'https://www.linkedin.com/in/okoh-emmanuel-chinedu/',
       btn: 'linkedin',
     },
     {
@@ -374,7 +374,7 @@ $(document).ready(function () {
   accounts.forEach(item => {
     social.append(`
         <li>
-          <a href="${item.a}">
+          <a href="${item.a}" target="_blank">
           <button><i class="bi bi-${item.btn}"></i></button>
          </a>
        </li>

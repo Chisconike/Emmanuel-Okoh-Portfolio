@@ -219,6 +219,13 @@ $(document).ready(function () {
 
   let details = [
     {
+      img: './assest/img/cnn.png',
+      a: 'https://cnn-website-clone.netlify.app/',
+      h3: 'CNN Clone',
+      p2: 'Developed With Bootstrap and Angular.',
+      p3: 'Hosted at Netlify',
+    },
+    {
       img: './assest/img/openlabs.png',
       a: 'https://openlabs-clone.netlify.app/',
       h3: 'OpenLabs Clone',

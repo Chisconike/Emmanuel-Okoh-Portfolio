@@ -219,6 +219,20 @@ $(document).ready(function () {
 
   let details = [
     {
+      img: './assest/img/direxy.png',
+      a: 'https://direxy.netlify.app/',
+      h3: 'Direxy',
+      p2: 'Developed With Bootstrap and jQuery.',
+      p3: 'Hosted at Netlify',
+    },
+    {
+      img: './assest/img/entrapov.png',
+      a: 'https://entrapov.netlify.app/',
+      h3: 'Entrapov',
+      p2: 'Developed With Bootstrap and jQuery.',
+      p3: 'Hosted at Netlify',
+    },
+    {
       img: './assest/img/cnn.png',
       a: 'https://cnn-website-clone.netlify.app/',
       h3: 'CNN Clone',
@@ -236,7 +250,7 @@ $(document).ready(function () {
       img: './assest/img/Eco_Boutique.png',
       a: 'https://eco-boutique.netlify.app/',
       h3: 'Ecommerce Website',
-      p2: 'Developed With Bootstrap and Jquery.',
+      p2: 'Developed With Bootstrap and jQuery.',
       p3: 'Hosted at Netlify',
     },
     {

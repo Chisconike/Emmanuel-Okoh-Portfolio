@@ -426,27 +426,4 @@ $(document).ready(function () {
   animate.forEach((el) => check.observe(el));
 
 
-  // For Form Submission
-  $("form").submit(function (e) {
-    e.preventDefault(); // Prevent the default form submission
-
-    // Get form data
-    var formData = $(this).serialize();
-
-    // Send form data to the server
-    $.ajax({
-      type: "POST",
-      url: "process_form.php", // Change to the actual path of your PHP script
-      data: formData,
-      success: function (response) {
-        // Handle success (if needed)
-        console.log("Form submitted successfully");
-      },
-      error: function (error) {
-        // Handle errors (if needed)
-        console.error("Error submitting form: " + error);
-      }
-    });
-  });
-
 });

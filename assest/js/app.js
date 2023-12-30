@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 
   // i_am_a_web developer 
-  $('.i_am_a_web').text("I am a web developer, I build web applications and websites with HTML CSS, JavaScript, Bootstrap, JQuery, Django, Angular and Python.");
+  $('.i_am_a_web').text("I am Mr. Emmanuel, a dedicated Front-End Web Developer specializing in crafting compelling web applications and websites. Proficient in HTML, CSS, and JavaScript, I leverage industry-standard frameworks such as Bootstrap, jQuery, and Angular to deliver seamless and interactive user experiences.");
 
 
   // my_story
@@ -23,7 +23,7 @@ $(document).ready(function () {
 
 
   // my_experience 
-  $('.my_experience').html("<b> Front-End Web Developer, (Internship) Remote. Aug 2023 – Present</b> <br> In this role, I was responsible for creating visually appealing and interactive user interfaces websites. <br> <br> <b> Key Responsibilities and Achievements:</b> <br> <b>-</b> Developed and maintained websites.<br> <b>-</b> Utilized front - end technologies such as HTML, CSS, JavaScript, and jQuery. <br> <b>-</b> Collaborated with the design team to transform static designs into dynamic and visually appealing websites. <br> <b>-</b> Conducted thorough testing and debugging to identify and rectify any front - end issues, ensuring cross - browser compatibility and a consistent experience for users.")
+  $('.my_experience').html("<b> Front-End Web Developer, Remote. Aug 2023 – Present</b> <br> In this role, I was responsible for creating visually appealing and interactive user interfaces websites. <br> <br> <b> Key Responsibilities and Achievements:</b> <br> <b>-</b> Developed and maintained websites.<br> <b>-</b> Utilized front - end technologies such as HTML, CSS, JavaScript, and jQuery. <br> <b>-</b> Collaborated with the design team to transform static designs into dynamic and visually appealing websites. <br> <b>-</b> Conducted thorough testing and debugging to identify and rectify any front - end issues, ensuring cross - browser compatibility and a consistent experience for users.")
 
 
 
@@ -107,10 +107,10 @@ $(document).ready(function () {
       img: './assest/img/angular.png',
       b: 'Angular',
     },
-    {
-      img: './assest/img/python.png',
-      b: 'Python',
-    },
+    // {
+    //   img: './assest/img/python.png',
+    //   b: 'Python',
+    // },
     {
       img: './assest/img/jquery.png',
       b: 'jQuery',
@@ -156,11 +156,11 @@ $(document).ready(function () {
       p: "Building websites from scratch using various technologies and frameworks, tailored to the client's specific needs and requirements.",
       i: 'bi bi-laptop',
     },
-    {
-      h2: 'Full-Stack Development',
-      p: 'Developing both the front-end and back-end of websites, ensuring a seamless user experience and robust functionality.',
-      i: 'bi bi-code-slash',
-    },
+    // {
+    //   h2: 'Full-Stack Development',
+    //   p: 'Developing both the front-end and back-end of websites, ensuring a seamless user experience and robust functionality.',
+    //   i: 'bi bi-code-slash',
+    // },
     {
       h2: 'Responsive Design',
       p: 'Creating websites that are optimized for various devices (desktop, tablet, mobile) to ensure a consistent and engaging user experience.',
@@ -176,16 +176,16 @@ $(document).ready(function () {
       p: 'Providing ongoing maintenance, updates, and technical support to ensure websites remain functional, secure, and up to date.',
       i: 'bi bi-wrench-adjustable',
     },
-    {
-      h2: 'SEO Optimization',
-      p: 'Optimizing websites for search engines to improve visibility, ranking, and overall online presence.',
-      i: 'bi bi-search',
-    },
-    {
-      h2: 'Security Enhancement',
-      p: 'Implementing security measures to protect websites from potential threats and vulnerabilities.',
-      i: 'bi bi-shield-lock',
-    },
+    // {
+    //   h2: 'SEO Optimization',
+    //   p: 'Optimizing websites for search engines to improve visibility, ranking, and overall online presence.',
+    //   i: 'bi bi-search',
+    // },
+    // {
+    //   h2: 'Security Enhancement',
+    //   p: 'Implementing security measures to protect websites from potential threats and vulnerabilities.',
+    //   i: 'bi bi-shield-lock',
+    // },
     {
       h2: 'Consultation and Strategy',
       p: 'Providing expert advice and strategic planning to help clients make informed decisions regarding their web development projects.',
@@ -411,7 +411,6 @@ $(document).ready(function () {
 
 
 
-
   // for animation 
   const check = new IntersectionObserver((items) => {
     items.forEach((item) => {
@@ -425,5 +424,29 @@ $(document).ready(function () {
 
   const animate = document.querySelectorAll('.animate');
   animate.forEach((el) => check.observe(el));
+
+
+  // For Form Submission
+  $("form").submit(function (e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    // Get form data
+    var formData = $(this).serialize();
+
+    // Send form data to the server
+    $.ajax({
+      type: "POST",
+      url: "process_form.php", // Change to the actual path of your PHP script
+      data: formData,
+      success: function (response) {
+        // Handle success (if needed)
+        console.log("Form submitted successfully");
+      },
+      error: function (error) {
+        // Handle errors (if needed)
+        console.error("Error submitting form: " + error);
+      }
+    });
+  });
 
 });

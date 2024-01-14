@@ -107,6 +107,10 @@ $(document).ready(function () {
       img: './assest/img/angular.png',
       b: 'Angular',
     },
+    {
+      img: './assest/img/vue.png',
+      b: 'Vue.js',
+    },
     // {
     //   img: './assest/img/python.png',
     //   b: 'Python',

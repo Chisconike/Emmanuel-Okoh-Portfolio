@@ -12,6 +12,10 @@ $(document).ready(function () {
     $('.collapse').toggle()
   })
 
+ // Get the current year
+ const currentYear = new Date().getFullYear();
+ // Update the year in the footer
+ $("#currentYear").text(currentYear);
 
 
   // i_am_a_web developer 
@@ -224,7 +228,7 @@ $(document).ready(function () {
   let details = [
     {
       img: './assest/img/direxy.png',
-      a: 'https://direxy.netlify.app/',
+      a: 'https://digitalmojo.netlify.app/',
       h3: 'Direxy',
       p2: 'Developed With Bootstrap and jQuery.',
       p3: 'Hosted at Netlify',
@@ -259,94 +263,87 @@ $(document).ready(function () {
     },
     {
       img: './assest/img/DezignSntr.png',
-      a: 'https://chisconike.github.io/DezignSntr/',
+      a: 'https://dezignsntr.netlify.app/',
       h3: 'DezignSntr',
       p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/blog.png',
-      a: 'https://chisconike.github.io/Blog-site/',
+      a: 'https://openlabsblogsite.netlify.app/',
       h3: 'Simple Blog',
       p2: 'Developed With HTML, CSS, JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/facebook.png',
-      a: 'https://chisconike.github.io/Facebook/',
+      a: 'https://facebookclonebyemma.netlify.app/',
       h3: 'Facebook Clone',
       p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/instagram.png"',
-      a: 'https://chisconike.github.io/Instagram/',
+      a: 'https://instagramclone.netlify.app/',
       h3: 'Instagram Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/youtube.png',
-      a: 'https://chisconike.github.io/YouTube/',
+      a: 'https://youtubeclonebyemma.netlify.app/',
       h3: 'YouTube Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/BibleSchool.png',
-      a: 'https://chisconike.github.io/HCBC-School/',
+      a: 'https://hcbcschool.netlify.app/',
       h3: 'His Coming Bible College',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/payjax.png',
-      a: 'https://chisconike.github.io/PAJAX/',
+      a: 'https://pajax.netlify.app/',
       h3: 'Payjax',
       p2: 'Developed With HTML and CSS.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/port.png',
-      a: 'https://chisconike.github.io/Project-with-Mr-Emma/',
+      a: 'https://project-with-mr-emma.netlify.app/',
       h3: 'Portfolio',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/bar-lounge.png',
-      a: 'https://chisconike.github.io/Bar-Lounge/',
+      a: 'https://bar-lounge.netlify.app/',
       h3: 'Bar-Lounge',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/nedu.png',
-      a: 'https://chisconike.github.io/NeduMotors/',
+      a: 'https://nedumotors.netlify.app/',
       h3: 'NeduMotors',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
-    },
-    {
-      img: './assest/img/top.png',
-      a: 'https://chisconike.github.io/TopQualities/',
-      h3: 'Top Qualities Boutique',
-      p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/ecomerce.png',
-      a: 'https://chisconike.github.io/E-Commerce/',
+      a: 'https://e-commerce-by-emma.netlify.app/',
       h3: 'E-Commerce',
       p2: 'Developed With HTML and CSS.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/food.png',
-      a: 'https://chisconike.github.io/Food/',
+      a: 'https://food-website-by-emma.netlify.app/',
       h3: 'Food.',
       p2: 'Developed With HTML and CSS.',
-      p3: 'Hosted on GitHub',
+      p3: 'Hosted at Netlify',
     },
   ]
 

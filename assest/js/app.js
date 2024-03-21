@@ -284,7 +284,7 @@ $(document).ready(function () {
     },
     {
       img: './assest/img/instagram.png"',
-      a: 'https://instagramclone.netlify.app/',
+      a: 'https://instagramclonebyemma.netlify.app/',
       h3: 'Instagram Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
       p3: 'Hosted at Netlify',

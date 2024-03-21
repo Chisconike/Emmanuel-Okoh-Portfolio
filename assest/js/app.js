@@ -288,6 +288,7 @@ $(document).ready(function () {
       h3: 'Instagram Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
       p3: 'Hosted at Netlify',
+      
     },
     {
       img: './assest/img/youtube.png',

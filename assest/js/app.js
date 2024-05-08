@@ -19,15 +19,15 @@ $(document).ready(function () {
 
 
   // i_am_a_web developer 
-  $('.i_am_a_web').text("I am Mr. Emmanuel, a dedicated Front-End Web Developer specializing in crafting compelling web applications and websites. Proficient in HTML, CSS, and JavaScript, I leverage industry-standard frameworks such as Bootstrap, jQuery, and Angular to deliver seamless and interactive user experiences.");
+  $('.i_am_a_web').text("I'm Mr. Emmanuel, a Fullstack Web Developer proficient in HTML, CSS, JavaScript, Bootstrap, jQuery, Angular, Python, and Django. I specialize in crafting seamless and immersive web experiences, from sleek user interfaces to robust backend solutions.");
 
 
   // my_story
-  $('.my_story').html(" In the realm of work, I am a fervent and committed individual, consistently delivering my services with utmost dedication to ensure my clients are enamored by the outcome. <br> <br> In the domain of web technology, I excel as a Frontend Developer, crafting contemporary and responsive web designs.");
+  $('.my_story').html("In my professional journey, I'm deeply committed to delivering excellence, ensuring every client is delighted with the outcome. <br> As a Fullstack Developer, I specialize in crafting modern, responsive web designs that captivate users. With expertise in frontend technologies like HTML, CSS, and JavaScript, as well as backend proficiency in Python and Django, I bring projects to life with seamless integration and superior performance.");
 
 
   // my_experience 
-  $('.my_experience').html("<b> Front-End Web Developer, Remote. Aug 2023 – Present</b> <br> In this role, I was responsible for creating visually appealing and interactive user interfaces websites. <br> <br> <b> Key Responsibilities and Achievements:</b> <br> <b>-</b> Developed and maintained websites.<br> <b>-</b> Utilized front - end technologies such as HTML, CSS, JavaScript, and jQuery. <br> <b>-</b> Collaborated with the design team to transform static designs into dynamic and visually appealing websites. <br> <b>-</b> Conducted thorough testing and debugging to identify and rectify any front - end issues, ensuring cross - browser compatibility and a consistent experience for users.")
+  $('.my_experience').html("<b>Fullstack Web Developer, Remote. Aug 2023 – Present</b> <br>As a Fullstack Web Developer, I've crafted visually appealing and interactive user interfaces for websites, utilizing HTML, CSS, JavaScript, jQuery, Python and Django. <br> <br> <b> Key Responsibilities and Achievements:</b> <br> <b>-</b> Developed and maintained websites, ensuring seamless user experiences. <br> <b>-</b> Collaborated with design teams to translate static designs into dynamic websites. <br> <b>-</b> Conducted testing and debugging for frontend performance and cross-browser compatibility.")
 
 
 
@@ -115,10 +115,14 @@ $(document).ready(function () {
       img: './assest/img/vue.png',
       b: 'Vue.js',
     },
-    // {
-    //   img: './assest/img/python.png',
-    //   b: 'Python',
-    // },
+    {
+      img: './assest/img/python.png',
+      b: 'Python',
+    },
+    {
+      img: './assest/img/django.png',
+      b: 'Django',
+    },
     {
       img: './assest/img/jquery.png',
       b: 'jQuery',
@@ -277,18 +281,17 @@ $(document).ready(function () {
     },
     {
       img: './assest/img/facebook.png',
-      a: 'https://facebookclonebyemma.netlify.app/',
+      a: 'https://chisconike.github.io/Facebook/',
       h3: 'Facebook Clone',
       p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
-      p3: 'Hosted at Netlify',
+      p3: 'Hosted at Github',
     },
     {
       img: './assest/img/instagram.png"',
-      a: 'https://instagramclonebyemma.netlify.app/',
+      a: 'https://chisconike.github.io/Instagram/',
       h3: 'Instagram Clone',
       p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted at Netlify',
-      
+      p3: 'Hosted at Github',
     },
     {
       img: './assest/img/youtube.png',

@@ -168,11 +168,11 @@ $(document).ready(function () {
       p: "Building websites from scratch using various technologies and frameworks, tailored to the client's specific needs and requirements.",
       i: 'bi bi-laptop',
     },
-    // {
-    //   h2: 'Full-Stack Development',
-    //   p: 'Developing both the front-end and back-end of websites, ensuring a seamless user experience and robust functionality.',
-    //   i: 'bi bi-code-slash',
-    // },
+    {
+      h2: 'Full-Stack Development',
+      p: 'Developing both the front-end and back-end of websites, ensuring a seamless user experience and robust functionality.',
+      i: 'bi bi-code-slash',
+    },
     {
       h2: 'Responsive Design',
       p: 'Creating websites that are optimized for various devices (desktop, tablet, mobile) to ensure a consistent and engaging user experience.',
@@ -198,11 +198,11 @@ $(document).ready(function () {
     //   p: 'Implementing security measures to protect websites from potential threats and vulnerabilities.',
     //   i: 'bi bi-shield-lock',
     // },
-    {
-      h2: 'Consultation and Strategy',
-      p: 'Providing expert advice and strategic planning to help clients make informed decisions regarding their web development projects.',
-      i: 'bi bi-chat-quote',
-    },
+    // {
+    //   h2: 'Consultation and Strategy',
+    //   p: 'Providing expert advice and strategic planning to help clients make informed decisions regarding their web development projects.',
+    //   i: 'bi bi-chat-quote',
+    // },
     {
       h2: 'User Experience (UX) Design',
       p: 'Focusing on creating intuitive and enjoyable user interfaces to improve user engagement and satisfaction.',
@@ -225,130 +225,143 @@ $(document).ready(function () {
   // End of my_services
 
 
-
   // For my Portfolios
   let codes = $('.my_works')
 
   let details = [
     {
+      img: './assest/img/vivatest.jpg',
+      a: 'https://vivatest.pythonanywhere.com/',
+      h3: 'Viva',
+      p2: 'Developed With Python Django. frontend and backend',
+      p3: 'Hosted at Python Anywhere',
+    },
+    {
+      img: './assest/img/afronews.jpg',
+      a: 'https://afronews.pythonanywhere.com/',
+      h3: 'AfroNews',
+      p2: 'Developed With Python Django. frontend and backend',
+      p3: 'Hosted at Python Anywhere',
+    },
+    {
       img: './assest/img/direxy.png',
       a: 'https://digitalmojo.netlify.app/',
       h3: 'Direxy',
-      p2: 'Developed With Bootstrap and jQuery.',
+      p2: 'Developed With Bootstrap and jQuery. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/entrapov.png',
       a: 'https://entrapov.netlify.app/',
       h3: 'Entrapov',
-      p2: 'Developed With Bootstrap and jQuery.',
+      p2: 'Developed With Bootstrap and jQuery. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/cnn.png',
       a: 'https://cnn-website-clone.netlify.app/',
       h3: 'CNN Clone',
-      p2: 'Developed With Bootstrap and Angular.',
+      p2: 'Developed With Bootstrap and Angular. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/openlabs.png',
       a: 'https://openlabs-clone.netlify.app/',
       h3: 'OpenLabs Clone',
-      p2: 'Developed With Bootstrap and Angular.',
+      p2: 'Developed With Bootstrap and Angular. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/Eco_Boutique.png',
       a: 'https://eco-boutique.netlify.app/',
       h3: 'Ecommerce Website',
-      p2: 'Developed With Bootstrap and jQuery.',
+      p2: 'Developed With Bootstrap and jQuery. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/DezignSntr.png',
       a: 'https://dezignsntr.netlify.app/',
       h3: 'DezignSntr',
-      p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
+      p2: 'Developed With HTML, CSS, JavaScript and jQuery. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/blog.png',
       a: 'https://openlabsblogsite.netlify.app/',
       h3: 'Simple Blog',
-      p2: 'Developed With HTML, CSS, JavaScript.',
+      p2: 'Developed With HTML, CSS, JavaScript. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/facebook.png',
       a: 'https://chisconike.github.io/Facebook/',
       h3: 'Facebook Clone',
-      p2: 'Developed With HTML, CSS, JavaScript and jQuery.',
+      p2: 'Developed With HTML, CSS, JavaScript and jQuery. Frontend Only',
       p3: 'Hosted at Github',
     },
     {
       img: './assest/img/instagram.png"',
       a: 'https://chisconike.github.io/Instagram/',
       h3: 'Instagram Clone',
-      p2: 'Developed With HTML, CSS and JavaScript.',
+      p2: 'Developed With HTML, CSS and JavaScript. Frontend Only',
       p3: 'Hosted at Github',
     },
     {
       img: './assest/img/youtube.png',
       a: 'https://youtubeclonebyemma.netlify.app/',
       h3: 'YouTube Clone',
-      p2: 'Developed With HTML, CSS and JavaScript.',
+      p2: 'Developed With HTML, CSS and JavaScript. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/BibleSchool.png',
       a: 'https://hcbcschool.netlify.app/',
       h3: 'His Coming Bible College',
-      p2: 'Developed With HTML, CSS and JavaScript.',
+      p2: 'Developed With HTML, CSS and JavaScript. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/payjax.png',
       a: 'https://pajax.netlify.app/',
       h3: 'Payjax',
-      p2: 'Developed With HTML and CSS.',
+      p2: 'Developed With HTML and CSS. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/port.png',
       a: 'https://project-with-mr-emma.netlify.app/',
       h3: 'Portfolio',
-      p2: 'Developed With HTML, CSS and JavaScript.',
+      p2: 'Developed With HTML, CSS and JavaScript. Frontend Only',
       p3: 'Hosted at Netlify',
     },
     {
       img: './assest/img/bar-lounge.png',
       a: 'https://bar-lounge.netlify.app/',
       h3: 'Bar-Lounge',
-      p2: 'Developed With HTML, CSS and JavaScript.',
+      p2: 'Developed With HTML, CSS and JavaScript. Frontend Only',
       p3: 'Hosted at Netlify',
     },
-    {
-      img: './assest/img/nedu.png',
-      a: 'https://nedumotors.netlify.app/',
-      h3: 'NeduMotors',
-      p2: 'Developed With HTML, CSS and JavaScript.',
-      p3: 'Hosted at Netlify',
-    },
-    {
-      img: './assest/img/ecomerce.png',
-      a: 'https://e-commerce-by-emma.netlify.app/',
-      h3: 'E-Commerce',
-      p2: 'Developed With HTML and CSS.',
-      p3: 'Hosted at Netlify',
-    },
-    {
-      img: './assest/img/food.png',
-      a: 'https://food-website-by-emma.netlify.app/',
-      h3: 'Food.',
-      p2: 'Developed With HTML and CSS.',
-      p3: 'Hosted at Netlify',
-    },
+    // {
+    //   img: './assest/img/nedu.png',
+    //   a: 'https://nedumotors.netlify.app/',
+    //   h3: 'NeduMotors',
+    //   p2: 'Developed With HTML, CSS and JavaScript.',
+    //   p3: 'Hosted at Netlify',
+    // },
+    // {
+    //   img: './assest/img/ecomerce.png',
+    //   a: 'https://e-commerce-by-emma.netlify.app/',
+    //   h3: 'E-Commerce',
+    //   p2: 'Developed With HTML and CSS.',
+    //   p3: 'Hosted at Netlify',
+    // },
+    // {
+    //   img: './assest/img/food.png',
+    //   a: 'https://food-website-by-emma.netlify.app/',
+    //   h3: 'Food.',
+    //   p2: 'Developed With HTML and CSS.',
+    //   p3: 'Hosted at Netlify',
+    // },
   ]
 
   details.forEach(item => {

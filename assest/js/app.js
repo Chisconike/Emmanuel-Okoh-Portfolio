@@ -230,11 +230,18 @@ $(document).ready(function () {
 
   let details = [
     {
+      img: './assest/img/topqualitywears.jpg',
+      a: 'https://topqualitywears.com/',
+      h3: 'Top Quality Wears',
+      p2: 'Developed With Python Django. frontend and backend',
+      p3: 'Website is Live Kindly Patronize',
+    },
+    {
       img: './assest/img/vivatest.jpg',
-      a: 'https://vivatest.pythonanywhere.com/',
+      a: 'https://www.vivastyled.com/',
       h3: 'Viva',
       p2: 'Developed With Python Django. frontend and backend',
-      p3: 'Hosted at Python Anywhere',
+      p3: 'Website is Live Kindly Patronize',
     },
     {
       img: './assest/img/afronews.jpg',

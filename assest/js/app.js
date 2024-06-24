@@ -5,7 +5,13 @@ $(document).ready(function () {
     $('.preloader').fadeOut(500)
   }, 5000);
 
-
+  // For Contact Button 
+  
+  $('.select_container').hide()
+  
+  $('.icon_cover').click(function () {
+    $('.select_container').toggle()
+  })
 
   // For Switch In NavBar
   $('#switch').click(function () {

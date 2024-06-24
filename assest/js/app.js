@@ -230,7 +230,7 @@ $(document).ready(function () {
 
   let details = [
     {
-      img: './assest/img/topqualitywears.jpg',
+      img: './assest/img/topqualitywears.png',
       a: 'https://topqualitywears.com/',
       h3: 'Top Quality Wears',
       p2: 'Developed With Python Django. frontend and backend',

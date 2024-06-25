@@ -257,6 +257,20 @@ $(document).ready(function () {
       p3: 'Hosted at Python Anywhere',
     },
     {
+      img: './assest/img/origami.png',
+      a: 'https://origamisite.netlify.app/',
+      h3: 'Origami',
+      p2: 'Developed With Bootstrap and jQuery. Frontend Only',
+      p3: 'Hosted at Netlify',
+    },
+    {
+      img: './assest/img/xspace.png',
+      a: 'http://xspace.digitalmojotechsol.com/',
+      h3: 'XSpace',
+      p2: 'Developed With Bootstrap and jQuery. Frontend Only',
+      p3: 'Website is Live Kindly Patronize',
+    },
+    {
       img: './assest/img/direxy.png',
       a: 'https://digitalmojo.netlify.app/',
       h3: 'Direxy',

@@ -3,201 +3,1384 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emmanuel's Portfolio</title>
-  <!-- google fonts -->
+  <title>Okoh Emmanuel - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/emmanuel.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <!-- bootstrap icon -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <!-- Manifest -->
-  <link rel="manifest" href="./ manifest.json">
-  <!-- my css -->
-  <link rel="stylesheet" href="./assest/css/style.css">
-  <link rel="stylesheet" href="./assest/css/preloader.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <!-- navbar -->
-    <nav id="my_navbar">
-      <a href="" class="my_name">ECO<span>.</span>Tech</a>
-      <button id="switch"> <i class="bi bi-list"></i> </button>
-      <ul class="collapse">
-        <li><a href="#my_home">Home</a></li>
-        <li><a href="#my_about">About</a></li>
-        <li><a href="#my_services">Service</a></li>
-        <li><a href="#my_portfolio">Portfolio</a></li>
-        <!-- <li><a href="#my_contact">Contact</a></li> -->
-      </ul>
-    </nav>
-  </header>
+
+  <!--
+    - #MAIN
+  -->
+
   <main>
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="pl">
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__dot"></div>
-        <div class="pl__text">Okoh Emmanuel Chinedu</div>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box portfolio_pic">
+          <img src="./assets/images/emmanuel.jpg" alt="Richard hanrick" width="100%" class="portfolio_pic">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Okoh Emmanuel">Okoh Emmanuel</h1>
+
+          <p class="title">Software Engineer || Web Developer </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
       </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:emmanuel.okoh@quickwavetech.com" class="contact-link">emmanuel.okoh@quickwavetech.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <!-- <a href="tel:+233507614107" class="contact-link">+233507614107 </a> -->
+              <a href="tel:+2348145878819" class="contact-link">+2348145878819</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-12-18">December 18, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Lagos Nigeria</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="globe-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Company</p>
+
+              <a href="https://quickwavetech.com/" target="_blank" class="contact-link">Quickwave Tech</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="document-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">CV</p>
+
+              <a href="https://quickwavetech.com/" target="_blank" class="contact-link">Download CV</a>
+            </div>
+
+          </li> -->
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/Chisconike/" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/chisconike" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/chisco_emmanuel/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/okoh-emmanuel-chinedu/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Chisconike" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://api.whatsapp.com/send/?phone=%2B2348145878819&text&type=phone_number&app_absent=0" target="_blank" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Mr. Emmanuel, a passionate and detail-oriented Front-End Web Developer based in Nigeria, with a strong foundation in HTML, CSS, JavaScript, Bootstrap, jQuery, and Angular. I specialize in creating seamless and responsive user interfaces that blend functionality with aesthetic appeal.
+          </p>
+
+          <p>
+            My focus is on developing websites that are not only visually compelling but also intuitive and performance-driven. I transform complex concepts into user-friendly solutions, ensuring each project communicates your brand message with clarity and creativity.
+          </p>
+
+          <p>
+            Every line of code I write is crafted to enhance user experience while maintaining clean, maintainable structures. I take pride in bringing life to digital ideas—making your web presence both engaging and effective. Over the years, I’ve contributed to several impactful web projects across different industries, helping clients establish a strong and professional online identity.
+          </p>
+
+          <p>
+            Whether you're a startup or an established brand, my goal is to deliver a front-end experience that’s modern, reliable, and tailored to your unique needs.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Building websites from scratch using various technologies and frameworks, tailored to the client's specific needs and requirements.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Development</h4>
+
+                <p class="service-item-text">
+                  Developing both the front-end and back-end of websites, ensuring a seamless user experience and robust functionality.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Responsive Design</h4>
+
+                <p class="service-item-text">
+                  Creating websites that are optimized for various devices (desktop, tablet, mobile) to ensure a consistent and engaging user experience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/setting.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Maintenance and Support</h4>
+
+                <p class="service-item-text">
+                  Providing ongoing maintenance, updates, and technical support to ensure websites remain functional, secure, and up to date.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/custom.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Custom Web Applications</h4>
+
+                <p class="service-item-text">
+                  Designing and developing custom web applications that cater to unique business needs, enhancing efficiency and productivity.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/figma.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">User Experience (UX) Design</h4>
+
+                <p class="service-item-text">
+                  Focusing on creating intuitive and enjoyable user interfaces to improve user engagement and satisfaction.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="tyktt" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tyktt</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mr. Emmanuel, transformed our outdated booking system into a sleek, modern platform. Our clients now enjoy a seamless flight search and ticketing experience. We’ve seen a 65% boost in engagement since launch.
+                    <br>
+                    — CEO, Tyktt
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Seamless Travel" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Seamless Travel</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We’ve worked with other developers before, but none match the professionalism and expertise that Mr. Emmanuel brings. Our site now integrates with multiple airline APIs, offers instant ticketing, and is secured with top-tier practices. We’re beyond impressed.
+                    <br>
+                    — CTO, Seamless Travel
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="World Travel Shop" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>World Travel Shop</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We wanted a powerful platform that could simplify multi-city bookings and Amadeus GDS integration. Mr. Emmanuel delivered exactly that. The interface is sleek, mobile-responsive, and incredibly fast. JetEase now handles triple the number of daily searches without breaking a sweat.
+                    <br>
+                    — Operations Lead, World Travel Shop
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Top Quality Wears" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Top Quality Wears</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Our e-commerce platform needed speed, security, and simplicity—and that’s exactly what we got. Mr. Emmanuel built us a dynamic shopping site with smooth UX, secure checkout, and seamless product management. Customers love it, and so do we!.
+
+                    <br>
+                    — Product Manager, Top Quality Wears
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Digital Mojo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Digital Mojo</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As a dynamic digital marketing firm, we needed a web platform that matched our pace and creativity. Mr. Emmanuel built a modern, responsive website with seamless CMS integration and vibrant UI elements tailored to our brand. Their attention to performance, accessibility, and user engagement elevated our digital presence dramatically.
+                    <br>
+                    — Creative Director, Digital Mojo
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Soft Crown Travels" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Soft Crown Travels</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mr. Emmanuel’s team delivered a responsive, intuitive hotel booking engine that’s both elegant and reliable. Guests find it easier to book, and our bookings increased significantly in just a few weeks.
+
+                    <br>
+                    — General Manager, Soft Crown Travels
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="TravelInn Bookings" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>TravelInn Bookings</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mr. Emmanuel's attention to detail is second to none. From fare rules to dynamic pricing, our website now supports everything we need to manage reservations effectively. It’s visually appealing and technically robust—a perfect blend for today's travelers.
+                    <br>
+                    — Managing Director, TravelInn Bookings
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+           
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://tyktt.com/" target="_blank">
+                <img src="./assets/images/image.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://quickwavetech.com/" target="_blank">
+                <img src="./assets/images/image0.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://flights.softcrowntravels.com/" target="_blank">
+                <img src="./assets/images/image1.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://travelinnbookings.com/" target="_blank">
+                <img src="./assets/images/image2.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://worldtravelshop-ng.com/" target="_blank">
+                <img src="./assets/images/image3.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://seamlesstravel.ng/" target="_blank">
+                <img src="./assets/images/image4.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://topqualitywears.com/" target="_blank">
+                <img src="./assets/images/image5.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://digitalmojo.agency/" target="_blank">
+                <img src="./assets/images/image6.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://xspace.digitalmojotechsol.com/" target="_blank">
+                <img src="./assets/images/image8.png" alt="client logo" width="100">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">OpenLabs(NIIT)</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Certificate <br>
+                FullStack Web Development
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Udemy(Online)</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Certificate <br>
+                FullStack Web Development
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lagos State Polytechnic</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                OND <br>
+                Architechture
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Community Secondary School Ugwogo Nike</h4>
+
+              <span>2016</span>
+
+              <p class="timeline-text">
+                SSCE <br>
+                Secondary School                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Community Primary School Ugwogo Nike</h4>
+
+              <span>2009</span>
+
+              <p class="timeline-text">
+                First Leaving School Certificate <br>
+                Primary/Basic Education
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Head of FrontEnd Developer</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Quickwave Tech
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FullStack Developer</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Digital Mojo
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FullStack Developer</h4>
+
+              <span>2023 — 2023</span>
+
+              <p class="timeline-text">
+                Maranatha TV
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML/CSS</h5>
+                <data value="98">98%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 98%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Angular</h5>
+                <data value="86">86%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 86%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+         
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="79">79%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 79%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li> -->
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li> -->
+
+              <!-- <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li> -->
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://quickwavetech.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-0.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quickwave Tech</h3>
+
+                <p class="project-category">Technology Solutions & Software Development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://tyktt.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tyktt</h3>
+
+                <p class="project-category">B2B Travel Agency</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://flights.softcrowntravels.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Soft Crown Travels</h3>
+
+                <p class="project-category">B2C Travel Agency</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://travelinnbookings.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TravelInn Bookings</h3>
+
+                <p class="project-category">B2C Travel Agency</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://worldtravelshop-ng.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">World Travel Shop</h3>
+
+                <p class="project-category">B2C Travel Agency</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://seamlesstravel.ng/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Seamless Travel</h3>
+
+                <p class="project-category">B2C Travel Agency</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://xspace.digitalmojotechsol.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XSPACE</h3>
+
+                <p class="project-category">WorkSpace/House Agent</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://digitalmojo.agency/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Mojo</h3>
+
+                <p class="project-category">Content, digital media, marketing & training services</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://topqualitywears.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Top Quality Wears</h3>
+
+                <p class="project-category">E-Commerce</p>
+
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+           
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.498246616327!2d3.4504166343389655!3d6.450198136626579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf452da3bd44b%3A0x47331fb41adc9d28!2sLekki%20Phase%201%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1751020668395!5m2!1sen!2sng" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
     </div>
 
-
-    <!-- home page -->
-    <section id="my_home">
-      <div class="container animate">
-        <h3>Greetings,</h3>
-        <h3 class="i_am_a_web"></h3>
-
-        <a href="mailto:chinedue856@gmail.com"><button class="change">Hire Me <i
-              class="bi bi-arrow-right"></i></button></a>
-        <!-- <a href="mailto:chinedue856@gmail.com"><button>Work With Me <i class="bi bi-arrow-right"></i></button></a> -->
-      </div>
-    </section>
-    <!-- about page -->
-    <section id="my_about">
-      <div class="mypics animate">
-        <img src="./assest/img/chisco.png" alt="Emmanuel Okoh">
-      </div>
-      <!-- about options -->
-      <div class="myself animate">
-        <div class="more_of_me">
-          <button class="change about">ABOUT ME</button>
-          <button class="skills">SKILLS</button>
-          <button class="experience">EXPERIENCE</button>
-        </div>
-
-        <!-- my story -->
-        <div class="more_details display1">
-          <h1>My Story</h1>
-          <p class="my_story"></p>
-
-          <br>
-          <a href="tel:+233507614107"> <i class="bi bi-telephone-outbound"></i> &nbsp; +233507614107 </a> <br>
-          <a href="https://wa.me/+233507614107"> <i class="bi bi-whatsapp"></i> &nbsp; +233507614107 </a> <br>
-          <a href="mailto:chinedue856@gmail.com" class="email"><i class="bi bi-envelope"></i> &nbsp;
-            chinedue856@gmail.com</a> <br>
-          <a href="./assest/My-CV/Emmanuel's CV.pdf" target="_blank" download="Emmanuel Okoh CV">
-            <button>Download CV <i class="bi bi-download"></i></button></a>
-        </div>
-
-        <!-- My Skills -->
-        <div class="more_details display2">
-          <h1>My Skills</h1>
-
-          <div class="my_skills"></div> <!-- All my skills are on javascript-->
-
-          <br>
-          <a href="tel:+233507614107"> <i class="bi bi-telephone-outbound"></i> &nbsp; +233507614107 </a> <br>
-          <a href=" https://wa.me/+233507614107"> <i class="bi bi-whatsapp"></i> &nbsp; +233507614107 </a> <br>
-          <a href="mailto:chinedue856@gmail.com" class="email"><i class="bi bi-envelope"></i> &nbsp;
-            chinedue856@gmail.com</a> <br>
-          <a href="./assest/My-CV/Emmanuel's CV.pdf" target="_blank" download="Emmanuel Okoh CV">
-            <button>Download CV <i class="bi bi-download"></i></button></a>
-        </div>
-
-        <!-- My Experience -->
-        <div class="more_details display3">
-          <h1>My Experience</h1>
-          <p class="my_experience"></p>
-          <br>
-          <a href="tel:+233507614107"> <i class="bi bi-telephone-outbound"></i> &nbsp; +233507614107 </a> <br>
-          <a href="https://wa.me/+233507614107"> <i class="bi bi-whatsapp"></i> &nbsp; +233507614107 </a> <br>
-          <a href="mailto:chinedue856@gmail.com" class="email"><i class="bi bi-envelope"></i> &nbsp;
-            chinedue856@gmail.com</a> <br>
-          <a href="./assest/My-CV/Emmanuel's CV.pdf" target="_blank" download="Emmanuel Okoh CV">
-            <button>Download CV <i class="bi bi-download"></i></button></a>
-
-        </div>
-    </section>
-
-    <!-- my services -->
-    <section id="my_services">
-      <h1 class="animate">My Services</h1>
-
-      <div class="my_service"></div>
-    </section>
-
-    <!-- my portfolio -->
-    <section id="my_portfolio">
-      <h1 class="animate">My Portfolio</h1>
-
-      <div class="my_works"></div>
-    </section>
-
-    <!-- my contact form -->
-    <!-- <section id="my_contact">
-      <h1 class="animate">Contact Me</h1>
-
-      <form name="contact" netlify>
-        <div class="client_details animate">
-          <div class="group">
-            <input type="text" placeholder="Full name" required>
-            <input type="email" placeholder="Email address" required>
-          </div>
-        </div>
-
-        <div class="animate">
-          <input type="text" placeholder="Subject" class="title" required>
-        </div>
-
-        <textarea cols="40" rows="5" placeholder="Leave me a message" required class="animate"></textarea>
-
-        <div class="client_submit animate">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </section> -->
-
-    <!-- Contact Button -->
-     <section class="call_container">
-
-      <div class="contact_button">
-        <div class="icon_cover">
-          <i class="bi bi-headset"></i>
-        </div>
-      </div>
-
-      <div class="select_container">
-        <a href="tel:+233507614107" class="icon_cover2">
-          <i class="bi bi-telephone-outbound"></i>
-        </a>
-
-        <a href="https://wa.me/+233507614107" class="icon_cover2">
-          <i class="bi bi-whatsapp"></i>
-        </a>
-      </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-      <h3>My social</h3>
-      <div class="my_social_accounts">
-        <ul class="social"></ul>
-      </div>
-
-      <hr>
-      <p>All rights reserved &copy; <span id="currentYear"></span> Emmanuel Okoh</p>
-    </footer>
   </main>
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="./assest/js/service-worker.js"></script>
-  <script src="./assest/js/app.js"></script>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
